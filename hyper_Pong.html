@@ -1,0 +1,32 @@
+<!doctype html>
+<meta charset="utf-8">
+
+<html>
+    <head>
+        <title>Hyper-Pong</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body > div {
+                position: absolute;
+                /* top: 0;
+                bottom: 0; */
+                left: 0;
+                right: 0;
+
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+            }
+        </style>
+    </head>
+
+    <body style="background-color:black">
+        <h1 style="color:white;">Hyperbolic Ping-Pong Game</h1>
+        <p style="color:white;">To play, click once on the game graphic, then your controls are recognised. To move the left paddle, use keys "w" and "s", to move the right paddle the "up" and "down" arrow keys.</p>
+        <p style="color:white;">During testing, the game executed more smoothly in the Chrome browser. To learn more about the game and its conception, visit the <a href="https://hegl.mathi.uni-heidelberg.de/hyperbolic-ping-pong-game/">HEGL website</a>.</p>
+        <p style="color:white;"><em>[Written in python by Isabel, Karina, and Phil; transcribed to javascript by Ricardo.]</em></p>
+        <div id="__panel__"></div>
+        <script type='module' src="__target__/maingame.js"></script>
+    </body>
+</html>
